@@ -31,6 +31,14 @@ public class User {
     @Column(name = "ABOUT")
     private String about;
 
+    @Column(name = "PASSWORD")
+    private String password;
+
+    @Column(name = "PHONE_NO")
+    private String phoneNo;
+
+
+
 //    @Transient                               //this will not save rating in the database , it will ignore
 //    private List<Rating> ratings = new ArrayList<>();
 
